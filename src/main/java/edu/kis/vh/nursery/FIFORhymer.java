@@ -7,9 +7,13 @@ package edu.kis.vh.nursery;
 public class FIFORhymer extends DefaultCountingOutRhymer {
 
 
+
     //Tymczasowy schowek używany do odwracania kolejności elementów.
 
-    public final DefaultCountingOutRhymer temp = new DefaultCountingOutRhymer();
+   
+
+    private final DefaultCountingOutRhymer temp = new DefaultCountingOutRhymer();
+
 
 
     //Nadpisuje metodę countOut, aby zaimplementować zachowanie FIFO.
